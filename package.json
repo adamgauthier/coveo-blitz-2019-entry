@@ -6,6 +6,7 @@
     "eslint": "^5.7.0"
   },
   "dependencies": {
-    "koa": "^2.5.3"
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1"
   }
 }
