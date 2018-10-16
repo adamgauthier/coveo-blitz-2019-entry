@@ -1,6 +1,7 @@
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
 
+const team = require('./team.json');
 const Solver = require('./Solver.js');
 
 const app = new Koa();
@@ -11,9 +12,9 @@ app.use(ctx => {
         if (ctx.method === 'POST') {
             const { puzzles } = ctx.request.body;
             ctx.body = {
-                teamName: '',
+                teamName: team.teamName,
                 solutions: puzzles.map(puzzle => Solver.solve(puzzle)),
-                participants: []
+                participants: team.participants
             };
         }
     }

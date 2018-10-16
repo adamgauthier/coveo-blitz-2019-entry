@@ -1,0 +1,35 @@
+{
+    "teamName": "YOUR TEAM NAME",
+    "participants": [
+        {
+            "isCaptain": true,
+            "fullName": "Your Name",
+            "email": "example@example.com",
+            "googleAccount": "example@gmail.com",
+            "phone": "000-000-0000",
+            "school": "Your School",
+            "schoolProgram": "Your School Program",
+            "graduationDate": 629510400000
+        },
+        {
+            "isCaptain": false,
+            "fullName": "Your Name",
+            "email": "example@example.com",
+            "googleAccount": "example@gmail.com",
+            "phone": "000-000-0000",
+            "school": "Your School",
+            "schoolProgram": "Your School Program",
+            "graduationDate": 629510400000
+        },
+        {
+            "isCaptain": false,
+            "fullName": "Your Name",
+            "email": "example@example.com",
+            "googleAccount": "example@gmail.com",
+            "phone": "000-000-0000",
+            "school": "Your School",
+            "schoolProgram": "Your School Program",
+            "graduationDate": 629510400000
+        }
+    ]
+}
