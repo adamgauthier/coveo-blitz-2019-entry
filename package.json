@@ -1,0 +1,11 @@
+{
+  "name": "coveo-blitz-2019-inscription",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "eslint": "^5.7.0"
+  },
+  "dependencies": {
+    "koa": "^2.5.3"
+  }
+}
