@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "./src/server.js",
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^6.6.0"
   },
   "dependencies": {
     "koa": "^2.5.3",
